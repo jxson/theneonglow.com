@@ -11,3 +11,6 @@ all:
 .PHONY: deploy
 deploy:
 	surge --project ./public --domain $(domain)
+
+start: all
+	./bin/theneonglow server

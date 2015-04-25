@@ -18,5 +18,8 @@
   "homepage": "https://github.com/jxson/theneonglow.com#readme",
   "devDependencies": {
     "surge": "^0.11.1"
+  },
+  "dependencies": {
+    "xtend": "^4.0.0"
   }
 }
